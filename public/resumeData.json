@@ -1,0 +1,153 @@
+{
+  "main": {
+    "name": "Sanskar Singh",
+    "occupation": "React Developer & Freelancer",
+    "description": "Eat Code Sleep Repeat",
+    "image": "profilepic2.jpg",
+    "bio": "Hi there! I am Sanskar Singh! I've been coding for over 2 years now. I am continuously working on my coding skills daily, I am 2 star codder in codechef and solved 100+ problem in leetcode. As a Full Stack developer I've worked on 4+ projects till now.",
+    "contactmessage": "Get in touch with me!",
+    "email": "sanskarsingh8176@gmail.com",
+    "phone": "+91 8176842825",
+    "address": {
+      "city": "Mirzapur",
+      "pincode": "231001",
+      "state": "Uttar Pradesh",
+      "country": "India"
+    },
+    "website": "",
+    "resumedownload": "https://drive.google.com/file/d/18lN1mjmZGF42BMu0LfnlH2q_JiSXXiqR/view",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://linkedin.com/in/sanskar-singh-98ba16193",
+        "className": "fa fa-linkedin"
+     
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/sanskar8176",
+        "className": "fa fa-github"
+      }, 
+       {
+        "name": "codechef",
+        "url": "https://www.codechef.com/users/sanskarsingh_1",
+        "className": "fa fa-code"
+      },
+      {
+        "name": "leetcode",
+        "url": "https://leetcode.com/sanskarsingh8176/",
+        "className": "fa fa-code"
+      }
+
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "Bundelkhand Institute Of Engineering & Technology - Jhansi",
+        "degree": "Bachelor's Degree, Computer Science",
+        "graduated": "Nov 2020 - NA 2023",
+        "description": "Current CGPA - 8.5 "
+      }
+      ,{
+        "school": "Government Polytechnic - Mirzapur",
+        "degree": "Diploma, Electrical Engineering",
+        "graduated": "Jul 2017 - Nov 2020",
+        "description": "Percent - 79.50%"
+      },
+      {
+        "school": "BLJ Inter College - Mirzapur",
+        "degree": "Intermediate, PCM",
+        "graduated": "June 2017",
+        "description": "Percent - 87.20%, Second highest in Mirzapur city"
+      }
+    ],
+    "work": [
+      {
+        "company": "CODE (Club Of DEvelopers)",
+        "title": "Developer and Operating Team Member",
+        "years": "Apr 2021 - Present",
+        "description": "Club Of Developers mission is to create a better learning and collaborative atmosphere in the campus where they can learn and enhance their skills."
+      }
+    ],
+    "skills": [
+      {
+        "name": "C/C++",
+        "level": "89%"
+      },
+      {
+        "name": "Python",
+        "level": "65%"
+      },
+      {
+        "name": "Git/Github",
+        "level": "70%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "69%"
+      },
+      {
+        "name": "HTML/CSS",
+        "level": "89%"
+      },
+      {
+        "name": "Database - MySQL/MongoDb",
+        "level": "60%"
+      },
+       {
+        "name": "  Graphics - Figma/Photoshop",
+        "level": "79%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+     
+      {
+        "title": "Netflix-Clone (React JS)",
+        "category": "Streaming",
+        "image": "netflix-mockup.jpg",
+        "url": "https://netflix-clone-24789.web.app/"
+      },
+       {
+        "title": "WhatsApp-Clone (MERN Stack)",
+        "category": "Chating",
+        "image": "whatsapp-clone.jpg",
+        "url": "#"
+      },
+       {
+        "title": "Portfolio (React JS)",
+        "category": "Public",
+        "image": "Portfolio-sanskar.jpg",
+        "url": "#"
+      },
+       {
+        "title": "Gadget 24/7 (Wordpress)",
+        "category": "Bloging",
+        "image": "Gadget247.jpg",
+        "url": "https://ecommerce-webby.000webhostapp.com/"
+      }
+   
+      
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Sanskar Singh is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend.",
+        "user": "ABC"
+      },
+      {
+        "text": "Sanskar finsished all of his task before Deadline his Nature and Behaviour is perfectly adequate ... I would definitely recommend.",
+        "user": "XYZ"
+      }
+    ]
+  }
+}
+
+
+
+
+

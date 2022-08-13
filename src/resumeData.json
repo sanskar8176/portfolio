@@ -3,7 +3,7 @@
     "name": "Sanskar Singh",
     "occupation": "React Developer & Freelancer",
     "description": "Eat Code Sleep Repeat",
-    "image": "profilepic2.jpg",
+    "image": "image/profilepic2.jpg",
     "bio": "Hi there! I am Sanskar Singh! I've been coding for over 2 years now. I am continuously working on my coding skills daily, I am 2 star codder in codechef and solved 100+ problem in leetcode. As a Full Stack developer I've worked on 4+ projects till now.",
     "contactmessage": "Get in touch with me!",
     "email": "sanskarsingh8176@gmail.com",
@@ -36,7 +36,7 @@
       {
         "name": "leetcode",
         "url": "https://leetcode.com/sanskarsingh8176/",
-        "className": "fa fa-code"
+        "className": "fa fa-laptop"
       }
 
     ]
@@ -108,25 +108,25 @@
       {
         "title": "Netflix-Clone (React JS)",
         "category": "Streaming",
-        "image": "netflix-mockup.jpg",
+        "image": "../images/portfolio/netflix-mockup.jpg",
         "url": "https://netflix-clone-24789.web.app/"
       },
        {
         "title": "WhatsApp-Clone (MERN Stack)",
         "category": "Chating",
-        "image": "whatsapp-clone.jpg",
+        "image": "/images/portfolio/whatsapp-clone.jpg",
         "url": "#"
       },
        {
         "title": "Portfolio (React JS)",
         "category": "Public",
-        "image": "Portfolio-sanskar.jpg",
+        "image": "../images/portfolio/Portfolio-sanskar.jpg",
         "url": "#"
       },
        {
         "title": "Gadget 24/7 (Wordpress)",
         "category": "Bloging",
-        "image": "Gadget247.jpg",
+        "image": "../images/portfolio/Gadget247.jpg",
         "url": "https://ecommerce-webby.000webhostapp.com/"
       }
    

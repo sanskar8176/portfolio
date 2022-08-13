@@ -1,9 +1,8 @@
 import React from "react";
-
 const About = ({ data }) => {
   if (data) {
     var name = data.name;
-    var profilepic = "images/" + data.image;
+    var profilepic = data.image;
     var bio = data.bio;
     var pincode = data.address.pincode;
     var city = data.address.city;
@@ -20,6 +19,7 @@ const About = ({ data }) => {
         <div className="three columns">
           <img
             className="profile-pic"
+            // src={img}
             src={profilepic}
             alt="Sanskar's Profile Pic"
           />
@@ -35,7 +35,6 @@ const About = ({ data }) => {
                 <span>{name}</span>
                 <br />
                 <span>
-                
                   {city}, {pincode} 
                   <br />
                   {state}, {country}

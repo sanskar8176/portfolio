@@ -1,5 +1,4 @@
 import React from "react";
-
 const Footer = ({ data }) => {
   if (data) {
     var networks = data.social.map(function (network) {
@@ -30,7 +29,7 @@ const Footer = ({ data }) => {
         </div>
         <div id="go-top">
           <a className="smoothscroll" title="Back to Top" href="#home">
-            <i className="icon-up-open"></i>
+          <i class="fa fa-chevron-up"></i>
           </a>
         </div>
       </div>

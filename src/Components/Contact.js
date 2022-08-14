@@ -1,5 +1,4 @@
 import React, { useRef,useState } from "react";
-import emailjs from '@emailjs/browser';
 
 const Contact = ({ data }) => {
   const [name, setName] = useState("");
@@ -20,34 +19,17 @@ const Contact = ({ data }) => {
     var contactMessage = data.contactmessage;
   }
 
-  // const submitForm = () => {
-  //   window.open(
-  //     `mailto:${contactEmail}?subject=${encodeURIComponent(
-  //       subject
-  //     )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
-  //       email
-  //     )}): ${encodeURIComponent(message)}`
-  //   );
-  // };
+  const submitForm = () => {
+    window.open(
+      `mailto:${contactEmail}?subject=${encodeURIComponent(
+        subject
+      )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
+        email
+      )}): ${encodeURIComponent(message)}`
+    );
+  };
 
-  const sendEmail = (e) => {
-    e.preventDefault();``
-
-    emailjs.sendForm('service_hx2mkhn', 'template_j14112f', form.current, 'Bj0TU50Yj2JNIPDnS')
-      .then((result) => {
-          console.log(result.text);
-       
-      }, (error) => {
-          console.log(error.text);
-          // setName("");
-          // setEmail("");
-          // setMessage("");
-          form.current.value = "";
-
-      });
-      
-    
-    }
+ 
 
    
     
@@ -67,18 +49,9 @@ const Contact = ({ data }) => {
 
       <div className="row">
         <div className="eight columns">
-         
-      <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name"  value={name}/>
-      <label>Email</label>
-      <input type="email" name="user_email" value={email} />
-      <label>Message</label>
-      <textarea name="message" value={message}/>
-      <input type="submit" value="Send" />
-      </form>
+    
 
-          {/* <form onSubmit={submitForm}>
+          <form onSubmit={submitForm}>
             <fieldset>
               <div>
                 <label htmlFor="contactName">
@@ -143,14 +116,14 @@ const Contact = ({ data }) => {
                 </button>
               </div>
             </fieldset>
-          </form> */}
+          </form>
 
 
-          {/* <div id="message-warning"> Error boy</div>
+          <div id="message-warning"> Error boy</div>
           <div id="message-success">
             <i className="fa fa-check"></i>Your message was sent, thank you!
             <br />
-          </div> */}
+          </div>
 
         </div>
 

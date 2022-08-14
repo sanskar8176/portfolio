@@ -1,4 +1,4 @@
-import React, { useRef,useState } from "react";
+import React, { useState } from "react";
 
 const Contact = ({ data }) => {
   const [name, setName] = useState("");
@@ -6,7 +6,6 @@ const Contact = ({ data }) => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
-  const form = useRef();
 
   if (data) {
     var contactName = data.name;

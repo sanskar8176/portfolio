@@ -1,4 +1,5 @@
 import React from "react";
+import pic from "../profilepic2.jpg";
 const About = ({ data }) => {
   if (data) {
     var name = data.name;
@@ -19,8 +20,8 @@ const About = ({ data }) => {
         <div className="three columns">
           <img
             className="profile-pic"
-            // src={img}
-            src={profilepic}
+            src={pic}
+            // src={profilepic}
             alt="Sanskar's Profile Pic"
           />
         </div>

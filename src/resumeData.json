@@ -106,22 +106,22 @@
     "projects": [
      
       {
-        "title": "Netflix-Clone (React JS)",
+        "title": "Trickle (React JS)",
         "category": "Streaming",
         "image": "../images/portfolio/netflix-mockup.jpg",
-        "url": "https://netflix-clone-24789.web.app/"
+        "url": "https://trickle-app.netlify.app/"
       },
        {
-        "title": "WhatsApp-Clone (MERN Stack)",
-        "category": "Chating",
+        "title": "Myauth (React & Firebase)",
+        "category": "Authentication",
         "image": "/images/portfolio/whatsapp-clone.jpg",
-        "url": "#"
+        "url": "https://promising-rock-339619.firebaseapp.com/"
       },
        {
         "title": "Portfolio (React JS)",
         "category": "Public",
         "image": "../images/portfolio/Portfolio-sanskar.jpg",
-        "url": "#"
+        "url": "https://sanskar8176.github.io/portfolio/"
       },
        {
         "title": "Gadget 24/7 (Wordpress)",
